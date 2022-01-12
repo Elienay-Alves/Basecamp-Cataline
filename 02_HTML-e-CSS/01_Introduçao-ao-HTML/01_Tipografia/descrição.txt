@@ -1,0 +1,60 @@
+[Download Visual Studio Code](https://code.visualstudio.com/)
+
+Tipografia é todo processo que envolve a impressão dos tipos, sendo tipo de fonte ou letra.
+
+Abaixo veremos as principais tags para formatação de texto.
+
+### Tags de títulos
+
+As tags de título possuem valor semântico, variando entre seis níveis hierárquicos. 
+Para fins de otimização SEO é importante entender como funcionam, e fazer uma utilização adequada, por exemplo, é recomendado que tenhamos apenas um `h1` por página, considerando que ele representa o título principal e é disso que se trata nossa página. 
+
+```html
+<h1>Hello World</h1> <!-- Título de maior valor hierárquico -->
+<h2>Hello World</h2>
+<h3>Hello World</h3>
+<h4>Hello World</h4>
+<h5>Hello World</h5>
+<h6>Hello World</h6> <!--Título de menor valor hierárquico -->
+```
+
+### Paragrafo
+```html
+<p>
+  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto qui quis
+  deserunt corrupti minus reiciendis soluta voluptatibus dicta repellendus totam
+  nisi ad, praesentium eos sit, illo sint id fugit eveniet.
+</p>
+```
+
+### Negrito
+```html
+<b>Este é um texto em negrito</b>
+```
+
+### Quebra de linha 
+Já que não iremos inserir quaisquer conteúdo dentro desta tag, ela não necessita de fechamento.
+```html
+<br />
+```
+
+### Texto pequeno
+```html
+<small>Este é um texto menor</small>
+```
+
+### Marcação
+```html
+<p>Não esqueça de comprar o <mark>pão</mark> hoje</p>
+```
+
+### Itálico
+```html
+<i>Transforma o conteúdo em itálico</i>
+```
+
+### Isolamento
+A tag `<span>` não nos oferece nenhum tipo de estilização por padrão ou peso semântico, o uso mais comum dela é quando queremos isolar uma parte especifica do texto para fazer alguma estilização adicional.
+```html
+<h1>Sua carreira de sucesso <span>começa aqui e agora!</span></h1>
+```
